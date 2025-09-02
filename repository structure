@@ -1,0 +1,9 @@
+/
+├── README.md
+├── heat_mapping.py
+├── heat_analysis.sql
+├── /data
+│   └── durgapur_heat_data.csv
+├── /screenshots
+│   ├── heatmap.png
+│   └── ndvi_scatter.png
