@@ -44,16 +44,22 @@ FROM heat_data
 GROUP BY land_use
 ORDER BY avg_temp DESC;
 2. 🌱 Hot Zones with Low Vegetation
+sql
 SELECT *
 FROM heat_data
 WHERE ndvi < 0.2 AND lst > 36;
 3. 📍 Top 5 Hottest Locations
+sql
 SELECT *
 FROM heat_data
 ORDER BY lst DESC
 LIMIT 5;
 🌿 Recommendations
 Afforestation in industrial and barren zones
+
+Cool roofing in residential areas with moderate NDVI
+
+Preservation and expansion of green spaces
 
 Cool roofing in residential areas with moderate NDVI
 
